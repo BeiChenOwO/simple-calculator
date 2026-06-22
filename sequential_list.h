@@ -21,7 +21,7 @@ SequentialList* initList();
 bool insert(SequentialList* list, int pos, ElementType value);
 
 // 删除元素 (删除位置pos的元素)
-bool delete(SequentialList* list, int pos);
+bool deleteElement(SequentialList* list, int pos);
 
 // 查找元素 (返回元素在表中的位置，从1开始)
 int search(SequentialList* list, ElementType value);
